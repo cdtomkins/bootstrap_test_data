@@ -27,7 +27,7 @@ tag:
       - "extras.externalintegration"
 external_integration:
   - name: "Test Integration"
-    remote_url: "https://my.integration.instance:45321"
+    remote_url: "https://my.integration.instance:45322"
     timeout: 30
     verify_ssl: false
     secrets_group_name: "Ext_Int_API_Credentials"
