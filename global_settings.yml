@@ -10,15 +10,15 @@ secret:
     parameters:
       variable: "EXT_INT_PASSWORD"
       path:
-secrets_group:
-  - name: "Ext_Int_API_Credentials"
-    secrets:
-      - name: "Ext_Int_User"
-        secret_type: "username"
-        access_type: "HTTP(S)"
-      - name: "Ext_Int_Password"
-        secret_type: "password"
-        access_type: "HTTP(S)"
+# secrets_group:
+#   - name: "Ext_Int_API_Credentials"
+#     secrets:
+#       - name: "Ext_Int_User"
+#         secret_type: "username"
+#         access_type: "HTTP(S)"
+#       - name: "Ext_Int_Password"
+#         secret_type: "password"
+#         access_type: "HTTP(S)"
 tag:
   - name: "Test"
     color: "ff9800"
