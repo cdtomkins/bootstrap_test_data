@@ -25,18 +25,18 @@ tag:
     description: "Test"
     content_types:
       - "extras.externalintegration"
-# external_integration:
-#   - name: "Test Integration"
-#     remote_url: "https://my.integration.instance:45322"
-#     timeout: 30
-#     verify_ssl: false
-#     secrets_group_name: "Ext_Int_API_Credentials"
-#     headers:
-#       Accept: "application/yang-data+json"
-#       Content-Type: "application/yang-data+json"
-#     http_method: "POST"
-#     ca_file_path: "/tmp/ca.crt"
-#     extra_config:
-#       test_extra_config:
-#         - "extra_value"
-#     tags: ["Test"]
+external_integration:
+  - name: "Test Integration"
+    remote_url: "https://my.integration.instance:45322"
+    timeout: 30
+    verify_ssl: false
+    secrets_group_name: "Ext_Int_API_Credentials"
+    headers:
+      Accept: "application/yang-data+json"
+      Content-Type: "application/yang-data+json"
+    http_method: "POST"
+    ca_file_path: "/tmp/ca.crt"
+    extra_config:
+      test_extra_config:
+        - "extra_value"
+    tags: ["Test"]
