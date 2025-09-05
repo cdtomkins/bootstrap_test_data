@@ -42,6 +42,6 @@ external_integration:
     # tags: ["Test"]
 team:
   - name: "Datacenter"
-    phone: "123-456-7890"
-    email: "datacenter@example.com"
-    address: "2715 N Vermont Canyon Rd, Los Angeles, CA 90027"
+    # phone: "123-456-7890"
+    # email: "datacenter@example.com"
+    # address: "2715 N Vermont Canyon Rd, Los Angeles, CA 90027"
