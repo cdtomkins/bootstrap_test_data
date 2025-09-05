@@ -34,8 +34,8 @@ external_integration:
     headers:
       Accept: "application/yang-data+json"
       Content-Type: "application/yang-data+json"
-    # http_method:
-    # ca_file_path:
+    http_method: "POST"
+    ca_file_path: "/tmp/ca.crt"
     extra_config:
       test_extra_config:
         - "extra_value"
