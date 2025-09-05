@@ -40,3 +40,8 @@ external_integration:
     #   test_extra_config:
     #     - "extra_value"
     # tags: ["Test"]
+team:
+  - name: "Datacenter"
+    phone: "123-456-7890"
+    email: "datacenter@example.com"
+    address: "2715 N Vermont Canyon Rd, Los Angeles, CA 90027"
